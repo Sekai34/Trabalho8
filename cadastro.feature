@@ -11,7 +11,7 @@ E não completar os campos obrigatórios com *
 Então mostrar uma mensagem "Você precisa preencher os campos obrigatórios"
 
 Cenário: E-mail inválido
-Dado que entrei na tela de cadastro
-E o e-mail for inválido
+Quando entrar na tela de cadastro
+E o campo do e-mail for inválido
 Então deve mostrar uma mensagem "e-mail inválido preencha este campo com outro e-mail"
     
